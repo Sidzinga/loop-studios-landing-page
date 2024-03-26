@@ -1,0 +1,130 @@
+header {
+    display: flex;
+ 
+}
+
+.my-5{
+color: azure;
+}
+.myRow{
+    height :max-content;
+    background-color: rgba(0, 0, 0, 0);
+    position:relative;
+    top: 200px ;
+    left: 150px;
+    width: 1000px;
+    border: 3px solid white;
+    font-size: 60px;
+    /* border-radius: 20px ; */
+    padding: 20px;
+}
+.myRow > h1 {
+    
+    font-size: 85px;
+    font-weight: 300;
+    /* margin: 40px; */
+}
+.head {
+        background-image: url("images/desktop/image-hero.jpg");
+        background-size: cover;
+        height: 700px;
+        color: azure;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+
+}
+
+.content{
+    width: max-content;
+    margin: 100px 0px 0px 100px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr ; */
+    /* padding: 100px 0 0 100px; */
+
+}
+.text-content{
+
+    background-color: white;
+width: 600px;
+height: 400px;
+padding: 100px;
+padding-bottom: 0px;
+position:relative;
+top: 250px;
+right: 200px;
+
+
+}
+.text-content > h2{
+
+font-size: 40px;
+font-weight: 300;
+font-family: "Josefin Sans";
+margin-bottom: 30px ;
+}
+
+.text-content > p {
+    width: fit-content;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+
+.head > div > ul > li {
+ 
+    display: inline;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.vr-img{
+    background-image: url("./images/desktop/image-interactive.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 900px;
+}
+
+.grid-container{
+width: 100%;
+display: grid;
+grid-template-rows: 1fr 1fr 0.5fr;
+/* padding: 200px 200px 0px 200px; */
+
+}
+.creations {
+    color: rgb(231, 99, 201);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr; */
+gap:25px;
+margin: 0px 100px 0px 100px;
+
+}
+.creations > div {
+
+height: 600px;
+width: 350px;
+
+}
+.creations > div > img{
+    height: 100%;
+width:100%;
+z-index: -1;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.creations > div > img > p {
+
+    position: relative;
+    top: -50px;
+}
